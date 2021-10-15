@@ -1,0 +1,37 @@
+[{
+    "id": "1",
+    "nome": "Bolo da tia Vera",
+    "preco": "15",
+    "tipo": "Bolos"
+},
+
+{
+    "id": "2",
+    "nome": "Esfiha de carne",
+    "preco": "5",
+    "tipo": "Salgados"
+},
+{
+    "id": "3",
+    "nome": "Chá de camomila",
+    "preco": "3",
+    "tipo": "Chás"
+},
+{
+    "id": "4",
+    "nome": "Café preto",
+    "preco": "2",
+    "tipo": "Cafés"
+},
+{
+    "id": "5",
+    "nome": "Suco de laranja",
+    "preco": "5",
+    "tipo": "Sucos"
+},
+{
+    "id": "6",
+    "nome": "Coca-Cola",
+    "preco": "5",
+    "tipo": "Refrigerantes"
+}]

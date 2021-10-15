@@ -1,0 +1,30 @@
+[{
+    "id": "1",
+    "numMesa": "1",
+    "qtdPessoas": "2"
+},
+{
+    "id": "2",
+    "numMesa": "2",
+    "qtdPessoas": "4"
+},
+{
+    "id": "3",
+    "numMesa": "3",
+    "qtdPessoas": "6"
+},
+{
+    "id": "4",
+    "numMesa": "4",
+    "qtdPessoas": "2"
+},
+{
+    "id": "5",
+    "numMesa": "5",
+    "qtdPessoas": "3"
+},
+{
+    "id": "6",
+    "numMesa": "6",
+    "qtdPessoas": "8"
+}]
