@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>CafeJQuery - Tipos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="lib/layout.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 amber-text text-accent-4 center-align">
+                    <h4>Gestão de Tipos de Produtos - CafeJQuery</h4>
+                </div>
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s5"><a class="active" href="#lista">Lista de Tipos de Produtos</a></li>
+                        <li class="tab col s3"><a  href="#gestao">Novo Tipo</a></li>
+                    </ul>
+                </div>
+                <div id="lista" class="col s12">
+                    <table id="listaMesa">
+                    <thead>
+                        <tr>
+                            <th style="width:10%">Id </th>
+                            <th style="width:80%">Descrição do tipo do produto</th>
+                            <th style="width:10%">Excluir</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpoTabela">
+                    </tbody>
+                </table>
+                </div>
+                <div id="gestao" class="col s12">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12 m3">
+                                <i class="material-icons prefix">confirmation_number</i>
+                                <input id="idTipo" name="idTipo" type="number" class="validate">
+                                <label for="idTipo">Id</label>
+                            </div>
+                            <div class="input-field col s12 m7">
+                                <i class="material-icons prefix">format_list_numbered</i>
+                                <input id="descricao" name="descricao" type="text" class="validate">
+                                <label for="descricao">Descrição do tipo do produto</label>
+                            </div>
+                            <div class="input-field col s12 m2">
+                                <button class="btn waves-effect waves-light amber accent-4" 
+                                        type="button" id="add" name="add" value="add">
+                                    <i class="material-icons center">control_point</i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col s6 offset-s3">
+                    <a href="index.html" class="waves-effect waves-light btn col s12 amber accent-4">
+                        <i class="material-icons left">keyboard_backspace</i>Voltar ao menu principal
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="lib/js/jquerymin.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="lib/js/cafeJQuery_tipos.js"></script>
+    </body>
+</html>
